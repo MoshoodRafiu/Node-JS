@@ -13,6 +13,6 @@ eventEmitter.on('userLogin', () => {
     console.log(`There are ${usersLoggedIn} users logged in`);
 })
 
-// the emit function calls the events, showing a user has 
+// the emit function calls the events, showing a user has
 // logged in successfully
 eventEmitter.emit('userLogin');
